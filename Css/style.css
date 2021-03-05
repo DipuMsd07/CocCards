@@ -105,6 +105,16 @@ body {
   top: -40px;
   left: 20px;
 }
+.clash-card__image--king {
+  background: url(../img/Kingbg.jpg) no-repeat;
+}
+
+.clash-card__image--king img {
+  width: 250px;
+  position: absolute;
+  top: -20px;
+  left: 20px;
+}
 
 .clash-card__level {
   text-transform: uppercase;
@@ -136,6 +146,10 @@ body {
   color: brown;
 }
 
+.clash-card__level--king {
+  color: goldenrod;
+}
+
 .clash-card__unit-name {
   font-size: 26px;
   color: black;
@@ -151,6 +165,7 @@ body {
 .clash-card__unit-stats--barbarian {
   background: #EC9B3B;
 }
+
 .clash-card__unit-stats--barbarian .one-third {
   border-right: 1px solid #BD7C2F;
 }
@@ -158,9 +173,10 @@ body {
 .clash-card__unit-stats--archer {
   background: #EE5487;
 }
+
 .clash-card__unit-stats--archer .one-third {
   border-right: 1px solid #D04976;
-}
+} 
 
 .clash-card__unit-stats--giant {
   background: #F6901A;
@@ -187,6 +203,12 @@ body {
 }
 .clash-card__unit-stats--hog .one-third {
   border-right: 1px solid #9d6d6d;
+}
+.clash-card__unit-stats--king {
+  background: goldenrod;
+}
+.clash-card__unit-stats--king .one-third {
+  border-right: 1px solid #97792c;
 }
 
 .clash-card__unit-stats {
