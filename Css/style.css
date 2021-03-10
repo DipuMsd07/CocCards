@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
 *, *:before, *:after {
   box-sizing: border-box;
 }
@@ -10,7 +11,7 @@ body {
   background-size: cover;
   font: 14px/20px "Lato", Arial, sans-serif;
   color: #9E9E9E;
-  margin-top: 30px;
+  margin-top: 60px;
 }
 
 .slide-container {
@@ -252,11 +253,19 @@ body {
 }
 
 .slick-prev {
-  left: 100px;
+  left: 90px;
   z-index: 999;
+}
+
+.slick-prev::before{
+  font-size: 30px;
 }
 
 .slick-next {
   right: 100px;
   z-index: 999;
+}
+
+.slick-next::before{
+  font-size: 30px;
 }

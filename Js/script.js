@@ -2,7 +2,10 @@
   
   var slideContainer = $('.slide-container');
   
-  slideContainer.slick();
+  slideContainer.slick({
+    dots: true,
+    speed: 300,
+  });
   
   $('.clash-card__image img').hide();
   $('.slick-active').find('.clash-card img').fadeIn(200);
