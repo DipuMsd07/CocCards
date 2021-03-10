@@ -269,3 +269,18 @@ body {
 .slick-next::before{
   font-size: 30px;
 }
+
+
+@media only screen and (max-width:400px){
+
+  .slide-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+  }
+  .slick-dots{
+   position: absolute;
+   bottom: 5%; 
+  }
+}
