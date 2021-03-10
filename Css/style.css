@@ -273,14 +273,25 @@ body {
 
 @media only screen and (max-width:400px){
 
+  
   .slide-container{
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 300px;
     height: 700px;
   }
+
+  .slick-prev{
+    top: 95%;
+  }
+
+  .slick-next{
+    top: 95%;
+  }
+
   .slick-dots{
    position: absolute;
-   bottom: 5%; 
+   bottom: -2%; 
   }
 }
