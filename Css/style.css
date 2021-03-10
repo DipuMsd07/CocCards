@@ -273,7 +273,6 @@ body {
 
 @media only screen and (max-width:400px){
 
-  
   .slide-container{
     display: flex;
     align-items: center;
@@ -289,10 +288,5 @@ body {
 
   .slick-next{
     top: 93%;
-  }
-
-  .slick-dots{
-   position: absolute;
-   bottom: 0%; 
   }
 }
